@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_61049_set_value.scheduledSetValueBaseUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>- Base API which is used to process record from table "x_61049_set_value_jobs" and update target records.</description>
+        <mobile_callable>false</mobile_callable>
+        <name>scheduledSetValueBaseUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var scheduledSetValueBaseUtils = Class.create();
+scheduledSetValueBaseUtils.prototype = {
+
+    initialize: function(jobSysId) {
+
+        if (typeof jobSysId == "string") {
+            this.jobGR = this.getJobObject(jobSysId);
+        } else {
+            this.jobGR = jobSysId;
+        }
+
+    },
+
+    processJobAndSetValue: function() {
+
+        var table = this.jobGR.getValue("target_table");
+        var query = this.jobGR.getValue("query");
+        var values = this.jobGR.getValue("set_values");
+
+        try {
+            this.processTargetTable(table, query, values);
+        } catch (error) {
+            this.addLogs("error", "Failed to process. Error: " + error.message);
+        }
+    },
+
+
+
+    processTargetTable: function(table, query, values) {
+
+        var stats = {};
+        stats.processed = 0;
+        stats.updated = 0;
+        stats.skipped = 0;
+        stats.inValidColumns = [];
+
+        var refinedValue = "";
+        var updated = false;
+
+        if (!gs.tableExists(table)) {
+            this.addLogs("error", table + " is not valid table name.");
+            return false;
+        }
+
+        var targetGR = new GlideRecord(table);
+
+        if (!targetGR.isEncodedQueryValid(query)) {
+            targetGR.addEncodedQuery(query);
+        }
+
+        targetGR.query();
+
+        refinedValue = this.getRefinedValueAsEncodedQuery(targetGR, values);
+
+        if (!refinedValue) {
+            this.addLogs("error", "Failed to parse values from column 'set_values'." + refinedValue);
+            return false;
+        }
+
+        while (targetGR.next()) {
+
+            stats.processed++;
+
+            targetGR.applyEncodedQuery(refinedValue.value);
+            updated = targetGR.update();
+            (updated) ? stats.updated++: stats.skipped++;
+        }
+
+        this.addLogs("info", "Summary : " + gs.getMessage("Total: {0}, Updated: {1}, Skipped: {2}", [stats.processed, stats.updated, stats.skipped]) +
+            "\nColumns Ignored: " + refinedValue.invalid);
+
+    },
+
+
+
+    getRefinedValueAsEncodedQuery: function(targetGR, values) {
+
+        var query = "";
+        var inValidColumns = [];
+
+        values = JSON.parse(values);
+
+        for (var key in values) {
+
+            if (targetGR.isValidField(key)) {
+                (query) ? query += "^" + key + "=" + values[key]: query = key + "=" + values[key];
+            } else {
+                inValidColumns.push(key);
+            }
+        }
+
+        if (targetGR.isEncodedQueryValid(query)) {
+            return {
+                "value": query,
+                "invalid": (inValidColumns.length > 0) ? inValidColumns.join() : "NA"
+            };
+        }
+
+        return false;
+    },
+
+
+
+    getJobObject: function(jobSysId) {
+
+        var jobGR = new GlideRecord("x_61049_set_value_jobs");
+
+        if (jobGR.get(jobSysId)) {
+            return jobGR;
+        }
+
+        return false;
+    },
+
+
+    addLogs: function(type, message) {
+
+        var prefix = "Job name: ";
+        prefix += this.jobGR.getValue("name");
+
+        if (type == "error") {
+            gs.error(prefix + "\n" + message);
+        } else {
+            gs.info(prefix + "\n" + message);
+        }
+
+    },
+
+    type: 'scheduledSetValueBaseUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 13:18:35</sys_created_on>
+        <sys_id>6db19f0e83bd3610ea116830ceaad3b8</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>scheduledSetValueBaseUtils</sys_name>
+        <sys_package display_value="Scheduled Set Values" source="x_61049_set_value">c495870283f53610ea116830ceaad391</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Scheduled Set Values">c495870283f53610ea116830ceaad391</sys_scope>
+        <sys_update_name>sys_script_include_6db19f0e83bd3610ea116830ceaad3b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-15 16:05:39</sys_updated_on>
+    </sys_script_include>
+</record_update>
