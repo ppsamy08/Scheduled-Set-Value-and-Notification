@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Set Values" section_id="4a6b0fc683f93610ea116830ceaad3e3" sys_domain="global" table="x_61049_set_value_jobs" version="3" view="">
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Set Values</caption>
+            <header>false</header>
+            <name>x_61049_set_value_jobs</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 12:47:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a6b0fc683f93610ea116830ceaad3e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_61049_set_value_jobs</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Scheduled Set Values" source="x_61049_set_value">c495870283f53610ea116830ceaad391</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Scheduled Set Values">c495870283f53610ea116830ceaad391</sys_scope>
+            <sys_update_name>sys_ui_section_4a6b0fc683f93610ea116830ceaad3e3</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 12:47:34</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

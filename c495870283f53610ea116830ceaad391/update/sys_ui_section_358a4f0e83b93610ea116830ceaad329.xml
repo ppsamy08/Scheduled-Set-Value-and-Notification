@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Schedule" section_id="358a4f0e83b93610ea116830ceaad329" sys_domain="global" table="x_61049_set_value_jobs" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>run_type</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 12:47:28</sys_created_on>
+            <sys_id>a06b0fc683f93610ea116830ceaad3b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Schedule" display_value="Schedule" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">358a4f0e83b93610ea116830ceaad329</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 12:47:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>run_weekinmonth</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 12:47:28</sys_created_on>
+            <sys_id>206b0fc683f93610ea116830ceaad3b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Schedule" display_value="Schedule" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">358a4f0e83b93610ea116830ceaad329</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 12:47:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>run_dayofmonth</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 12:47:28</sys_created_on>
+            <sys_id>ac6b0fc683f93610ea116830ceaad3b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Schedule" display_value="Schedule" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">358a4f0e83b93610ea116830ceaad329</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 12:47:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>run_dayofweek</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 12:47:28</sys_created_on>
+            <sys_id>2c6b0fc683f93610ea116830ceaad3b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Schedule" display_value="Schedule" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">358a4f0e83b93610ea116830ceaad329</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 12:47:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>run_daysofweek</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 12:47:28</sys_created_on>
+            <sys_id>a86b0fc683f93610ea116830ceaad3b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Schedule" display_value="Schedule" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">358a4f0e83b93610ea116830ceaad329</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 12:47:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>run_month</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 12:47:28</sys_created_on>
+            <sys_id>286b0fc683f93610ea116830ceaad3b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Schedule" display_value="Schedule" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">358a4f0e83b93610ea116830ceaad329</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 12:47:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>business_calendar</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 12:47:28</sys_created_on>
+            <sys_id>a46b0fc683f93610ea116830ceaad3b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Schedule" display_value="Schedule" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">358a4f0e83b93610ea116830ceaad329</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 12:47:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>time_zone</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 12:47:28</sys_created_on>
+            <sys_id>246b0fc683f93610ea116830ceaad3b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Schedule" display_value="Schedule" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">358a4f0e83b93610ea116830ceaad329</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 12:47:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>run_time</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 12:47:28</sys_created_on>
+            <sys_id>a06b0fc683f93610ea116830ceaad3b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Schedule" display_value="Schedule" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">358a4f0e83b93610ea116830ceaad329</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 12:47:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>entered_time</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 12:47:28</sys_created_on>
+            <sys_id>e46b0fc683f93610ea116830ceaad3c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Schedule" display_value="Schedule" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">358a4f0e83b93610ea116830ceaad329</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 12:47:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>run_period</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 12:47:28</sys_created_on>
+            <sys_id>646b0fc683f93610ea116830ceaad3c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Schedule" display_value="Schedule" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">358a4f0e83b93610ea116830ceaad329</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 12:47:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>advanced</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 12:47:28</sys_created_on>
+            <sys_id>e06b0fc683f93610ea116830ceaad3c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Schedule" display_value="Schedule" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">358a4f0e83b93610ea116830ceaad329</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 12:47:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>run_start</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 12:47:28</sys_created_on>
+            <sys_id>606b0fc683f93610ea116830ceaad3c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Schedule" display_value="Schedule" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">358a4f0e83b93610ea116830ceaad329</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 12:47:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>entered_run_start</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 12:47:28</sys_created_on>
+            <sys_id>ec6b0fc683f93610ea116830ceaad3c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Schedule" display_value="Schedule" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">358a4f0e83b93610ea116830ceaad329</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 12:47:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>run_end</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 12:47:28</sys_created_on>
+            <sys_id>6c6b0fc683f93610ea116830ceaad3c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Schedule" display_value="Schedule" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">358a4f0e83b93610ea116830ceaad329</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 12:47:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>entered_run_end</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 12:47:28</sys_created_on>
+            <sys_id>e86b0fc683f93610ea116830ceaad3c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Schedule" display_value="Schedule" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">358a4f0e83b93610ea116830ceaad329</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 12:47:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>repeat_every</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 12:47:28</sys_created_on>
+            <sys_id>686b0fc683f93610ea116830ceaad3ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Schedule" display_value="Schedule" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">358a4f0e83b93610ea116830ceaad329</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 12:47:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Schedule</caption>
+            <header>false</header>
+            <name>x_61049_set_value_jobs</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 12:43:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>358a4f0e83b93610ea116830ceaad329</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_61049_set_value_jobs</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Scheduled Set Values" source="x_61049_set_value">c495870283f53610ea116830ceaad391</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Scheduled Set Values">c495870283f53610ea116830ceaad391</sys_scope>
+            <sys_update_name>sys_ui_section_358a4f0e83b93610ea116830ceaad329</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 12:43:44</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

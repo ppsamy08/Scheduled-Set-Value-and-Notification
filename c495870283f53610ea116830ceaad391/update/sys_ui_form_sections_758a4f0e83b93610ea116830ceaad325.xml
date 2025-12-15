@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="758a4f0e83b93610ea116830ceaad325" sys_domain="global" table="x_61049_set_value_jobs" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 12:43:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fd8a4f0e83b93610ea116830ceaad327</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_61049_set_value_jobs" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">758a4f0e83b93610ea116830ceaad325</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">30d98b0683b93610ea116830ceaad341</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 12:43:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 12:43:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f58a4f0e83b93610ea116830ceaad32b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_61049_set_value_jobs" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">758a4f0e83b93610ea116830ceaad325</sys_ui_form>
+            <sys_ui_section caption="Schedule" display_value="Schedule" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">358a4f0e83b93610ea116830ceaad329</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 12:43:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 12:45:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e8fa878283f93610ea116830ceaad301</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_61049_set_value_jobs" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">758a4f0e83b93610ea116830ceaad325</sys_ui_form>
+            <sys_ui_section caption="Condition" display_value="Condition" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">e8fa038283f93610ea116830ceaad3ca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 12:45:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 12:47:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>026b0fc683f93610ea116830ceaad3e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_61049_set_value_jobs" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">758a4f0e83b93610ea116830ceaad325</sys_ui_form>
+            <sys_ui_section caption="Set Values" display_value="Set Values" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">4a6b0fc683f93610ea116830ceaad3e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 12:47:34</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_61049_set_value_jobs</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-12-15 12:43:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>758a4f0e83b93610ea116830ceaad325</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_61049_set_value_jobs</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Scheduled Set Values" source="x_61049_set_value">c495870283f53610ea116830ceaad391</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Scheduled Set Values">c495870283f53610ea116830ceaad391</sys_scope>
+            <sys_update_name>sys_ui_form_sections_758a4f0e83b93610ea116830ceaad325</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-12-15 12:43:44</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
