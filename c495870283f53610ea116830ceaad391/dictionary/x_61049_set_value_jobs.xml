@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="99f74b4e83393610ea116830ceaad3bd" extends="sysauto_script" label="Set Value Jobs" max_length="40" name="x_61049_set_value_jobs" type="collection">
-        <element attributes="allow_public=true,base_start=true" label="Target table" mandatory="true" max_length="80" name="target_table" type="table_name"/>
-        <element label="Set values" mandatory="true" max_length="4000" name="set_values" type="simple_name_values"/>
+        <element attributes="allow_public=true,base_start=true" label="Table" mandatory="true" max_length="80" name="target_table" type="table_name"/>
+        <element label="Values" mandatory="true" max_length="4000" name="set_values" type="simple_name_values"/>
         <element dependent="target_table" dependent_on_field="target_table" label="Query" mandatory="true" max_length="4000" name="query" type="conditions" use_dependent_field="true"/>
     </element>
 </database>
