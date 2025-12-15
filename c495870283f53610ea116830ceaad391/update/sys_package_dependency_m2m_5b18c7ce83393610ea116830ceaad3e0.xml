@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Automated Action Interface" source="com.snc.automation">a29deb6288122210559020d480f9d202</dependency>
+        <min_version>0.0.1</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 12:33:11</sys_created_on>
+        <sys_id>5b18c7ce83393610ea116830ceaad3e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Scheduled Set Values" source="x_61049_set_value">c495870283f53610ea116830ceaad391</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-15 12:33:11</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

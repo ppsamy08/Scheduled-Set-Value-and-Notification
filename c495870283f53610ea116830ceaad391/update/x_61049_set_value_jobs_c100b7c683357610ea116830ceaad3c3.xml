@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_61049_set_value_jobs">
+    <x_61049_set_value_jobs action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_run_end/>
+        <entered_run_start/>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <max_drift/>
+        <name>[Test] Jobs - 2 Records</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <query table="incident">numberININC0008111,INC0008001^EQ<item endquery="false" field="number" goto="false" newquery="false" operator="IN" or="false" value="INC0008111,INC0008001"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query>
+        <repeat_every/>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_daysofweek/>
+        <run_end/>
+        <run_month>1</run_month>
+        <run_period/>
+        <run_start/>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <run_weekinmonth>1</run_weekinmonth>
+        <script><![CDATA[new x_61049_set_value.scheduledSetValueBaseUtils(current).processJobAndSetValue();]]></script>
+        <set_values>{"short_description":"From set value: short description","description":"From set value: Description"}</set_values>
+        <sys_class_name>x_61049_set_value_jobs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 15:28:44</sys_created_on>
+        <sys_id>c100b7c683357610ea116830ceaad3c3</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>[Test] Jobs - 2 Records</sys_name>
+        <sys_package display_value="Scheduled Set Values" source="x_61049_set_value">c495870283f53610ea116830ceaad391</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Scheduled Set Values">c495870283f53610ea116830ceaad391</sys_scope>
+        <sys_update_name>x_61049_set_value_jobs_c100b7c683357610ea116830ceaad3c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-15 16:10:54</sys_updated_on>
+        <target_table>incident</target_table>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </x_61049_set_value_jobs>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>c100b7c683357610ea116830ceaad3c3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-15 15:28:44</sys_created_on>
+        <sys_id>3640bbc683357610ea116830ceaad330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-15 15:28:44</sys_updated_on>
+        <table>x_61049_set_value_jobs</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
