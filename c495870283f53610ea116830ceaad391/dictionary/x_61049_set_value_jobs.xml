@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="99f74b4e83393610ea116830ceaad3bd" extends="sysauto_script" label="Set Value Jobs" max_length="40" name="x_61049_set_value_jobs" type="collection">
+    <element db_object_id="99f74b4e83393610ea116830ceaad3bd" extends="sysauto_script" label="Scheduled Record Update" max_length="40" name="x_61049_set_value_jobs" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Notify" max_length="40" name="notify" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Group" max_length="1024" name="group" reference="sys_user_group" type="glide_list"/>
         <element attributes="allow_public=true,base_start=true" label="Table" mandatory="true" max_length="80" name="target_table" type="table_name"/>
         <element label="Values" mandatory="true" max_length="4000" name="set_values" type="simple_name_values"/>
         <element dependent="target_table" dependent_on_field="target_table" label="Query" mandatory="true" max_length="4000" name="query" type="conditions" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="User" max_length="1024" name="user" reference="sys_user" type="glide_list"/>
     </element>
 </database>

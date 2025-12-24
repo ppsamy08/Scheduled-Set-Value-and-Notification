@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_61049_set_value.scheduledSetValueUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Use this script include to override "scheduledSetValueBaseUtils"</description>
+        <mobile_callable>false</mobile_callable>
+        <name>scheduledSetValueUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var scheduledSetValueUtils = Class.create();
+
+scheduledSetValueUtils.prototype = Object.extendsObject(x_61049_set_value.scheduledSetValueBaseUtils, {
+
+    initialize: function(jobSysId) {
+
+        if (typeof jobSysId == "string") {
+            this.jobGR = this.getJobObject(jobSysId);
+        } else {
+            this.jobGR = jobSysId;
+        }
+
+    },
+
+    type: 'scheduledSetValueUtils'
+
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-17 13:39:38</sys_created_on>
+        <sys_id>0e3aed3e833d3a100a745e20ceaad3c2</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>scheduledSetValueUtils</sys_name>
+        <sys_package display_value="Scheduled Record Update" source="x_61049_set_value">c495870283f53610ea116830ceaad391</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Scheduled Record Update">c495870283f53610ea116830ceaad391</sys_scope>
+        <sys_update_name>sys_script_include_0e3aed3e833d3a100a745e20ceaad3c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-17 13:52:06</sys_updated_on>
+    </sys_script_include>
+</record_update>
