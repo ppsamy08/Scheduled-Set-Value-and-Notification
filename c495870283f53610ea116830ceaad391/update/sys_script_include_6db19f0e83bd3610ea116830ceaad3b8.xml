@@ -90,10 +90,10 @@ scheduledSetValueBaseUtils.prototype = {
             (updated) ? stats.updated++: stats.skipped++;
         }
 
-        var message = gs.getMessage("Total: {0}, Updated: {1}, Skipped: {2}", [stats.processed, stats.updated, stats.skipped]) +
+        var message = gs.getMessage("Total = {0}, Updated = {1}, Skipped = {2}", [stats.processed, stats.updated, stats.skipped]) +
             "\nColumns Ignored: " + refinedValue.invalid;
         this.addLogs("info", "Summary : " + message);
-        this.triggerNotification("Success", message);
+        this.triggerNotification("Success", "Stats : " + message.replaceAll("\n", "<br/>"));
 
     },
 
@@ -188,13 +188,13 @@ scheduledSetValueBaseUtils.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-15 13:18:35</sys_created_on>
         <sys_id>6db19f0e83bd3610ea116830ceaad3b8</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>scheduledSetValueBaseUtils</sys_name>
         <sys_package display_value="Scheduled Record Update" source="x_61049_set_value">c495870283f53610ea116830ceaad391</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Scheduled Record Update">c495870283f53610ea116830ceaad391</sys_scope>
         <sys_update_name>sys_script_include_6db19f0e83bd3610ea116830ceaad3b8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-18 15:53:27</sys_updated_on>
+        <sys_updated_on>2025-12-24 20:12:13</sys_updated_on>
     </sys_script_include>
 </record_update>
