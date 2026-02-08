@@ -4,13 +4,13 @@
             <element>target_table</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-12-15 15:37:04</sys_created_on>
-            <sys_id>bc32b38e83357610ea116830ceaad3d6</sys_id>
+            <sys_created_on>2026-02-08 12:22:33</sys_created_on>
+            <sys_id>77159e7f83f23a5087349730ceaad385</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Set Values" display_value="Set Values" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">4a6b0fc683f93610ea116830ceaad3e3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-15 15:37:04</sys_updated_on>
+            <sys_updated_on>2026-02-08 12:22:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,27 +18,55 @@
             <element>query</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-12-15 15:37:04</sys_created_on>
-            <sys_id>7432b38e83357610ea116830ceaad3d8</sys_id>
+            <sys_created_on>2026-02-08 12:22:33</sys_created_on>
+            <sys_id>3f159e7f83f23a5087349730ceaad386</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Set Values" display_value="Set Values" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">4a6b0fc683f93610ea116830ceaad3e3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-15 15:37:04</sys_updated_on>
+            <sys_updated_on>2026-02-08 12:22:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>run_br</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-08 12:22:33</sys_created_on>
+            <sys_id>bb159e7f83f23a5087349730ceaad387</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Set Values" display_value="Set Values" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">4a6b0fc683f93610ea116830ceaad3e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-08 12:22:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>auto_sysfield</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-02-08 12:22:33</sys_created_on>
+            <sys_id>3b159e7f83f23a5087349730ceaad388</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Set Values" display_value="Set Values" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">4a6b0fc683f93610ea116830ceaad3e3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-02-08 12:22:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>set_values</element>
-            <position>2</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-12-15 15:37:04</sys_created_on>
-            <sys_id>f032b38e83357610ea116830ceaad3d9</sys_id>
+            <sys_created_on>2026-02-08 12:22:33</sys_created_on>
+            <sys_id>b7159e7f83f23a5087349730ceaad389</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Set Values" display_value="Set Values" name="x_61049_set_value_jobs" sys_domain="global" view="Default view">4a6b0fc683f93610ea116830ceaad3e3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-12-15 15:37:04</sys_updated_on>
+            <sys_updated_on>2026-02-08 12:22:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

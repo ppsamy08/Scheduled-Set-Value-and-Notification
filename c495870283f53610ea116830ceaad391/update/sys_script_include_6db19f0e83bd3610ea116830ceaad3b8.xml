@@ -33,9 +33,11 @@ scheduledSetValueBaseUtils.prototype = {
         var table = this.jobGR.getValue("target_table");
         var query = this.jobGR.getValue("query");
         var values = this.jobGR.getValue("set_values");
+        var runBr = (this.jobGR.getValue("run_br") == 1) ? true : false;
+        var autoSysFields = (this.jobGR.getValue("auto_sysfield") == 1) ? true : false;
 
         try {
-            this.processTargetTable(table, query, values);
+            this.processTargetTable(table, query, values, runBr, autoSysFields);
         } catch (error) {
             this.addLogs("error", "Failed to process. Error: " + error.message);
         }
@@ -47,8 +49,10 @@ scheduledSetValueBaseUtils.prototype = {
      * @param1 table (string), Target table from where records needs to be updated
      * @param2 query (string), Encoded query to looks of records which needs to be updated
      * @param3 values (json string), Values which needs to be updated in target records
+	 * @param4 runBr (boolean), Run bussiness rule or not
+	 * @param5 autoSysFields (boolean), Update system field or not
      */
-    processTargetTable: function(table, query, values) {
+    processTargetTable: function(table, query, values, runBr, autoSysFields) {
 
         var stats = {};
         stats.processed = 0;
@@ -84,6 +88,9 @@ scheduledSetValueBaseUtils.prototype = {
         while (targetGR.next()) {
 
             stats.processed++;
+
+			targetGR.autoSysFields(autoSysFields);
+			targetGR.setWorkflow(runBr);
 
             targetGR.applyEncodedQuery(refinedValue.value);
             updated = targetGR.update();
@@ -188,13 +195,13 @@ scheduledSetValueBaseUtils.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-12-15 13:18:35</sys_created_on>
         <sys_id>6db19f0e83bd3610ea116830ceaad3b8</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>scheduledSetValueBaseUtils</sys_name>
         <sys_package display_value="Scheduled Record Update" source="x_61049_set_value">c495870283f53610ea116830ceaad391</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Scheduled Record Update">c495870283f53610ea116830ceaad391</sys_scope>
         <sys_update_name>sys_script_include_6db19f0e83bd3610ea116830ceaad3b8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-12-24 20:12:13</sys_updated_on>
+        <sys_updated_on>2026-02-08 12:33:10</sys_updated_on>
     </sys_script_include>
 </record_update>
